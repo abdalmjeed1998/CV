@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<style>
+    body {
+        background-color: rgb(108, 129, 70);
+    }
+    #container {
+        margin: 70px 550px;
+        width:450px;
+        height: 600px;
+        background-color: rgb(8, 108, 239);
+        display: grid;
+        grid-template-columns: repeat(4,1fr );
+        grid-template-rows: repeat(5,1fr ) ;
+        grid-template-areas:"items items items items "" item1 item2 item3 itemb  "
+        " item4 item5 item6 itemm" " item7 item8 item9 itemx"
+        " itemc item0 itemf itemh";
+    }
+    .items {grid-area:items ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item1 {grid-area:item1 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item2 {grid-area:item2 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item3 {grid-area:item3 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .itemb {grid-area:itemb ;
+        background-color: rgb(212, 212, 139);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item4 {grid-area:item4 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item5 {grid-area:item5 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item6 {grid-area:item6 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .itemm {grid-area:itemm ;
+        background-color: rgb(212, 212, 139);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item7 {grid-area:item7 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item8 {grid-area:item8 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item9 {grid-area:item9 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .itemx {grid-area:itemx ;
+        background-color: rgb(212, 212, 139);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .itemc {grid-area:itemc ;
+        background-color: rgb(192, 18, 90);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .item0 {grid-area:item0 ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .itemf {grid-area:itemf ;
+        background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    .itemh {grid-area:itemh ;
+        background-color: rgb(212, 212, 139);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px; }
+    /* #container > div {
+     background-color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 30px 0;
+     font-size: 30px;
+     margin: 15px;
+    } */
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="items"></div>
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="itemb">+</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="itemm">-</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+        <div class="itemx">*</div>
+        <div class="itemc">c</div>
+        <div class="item0">0</div>
+        <div class="itemf">=</div>
+        <div class="itemh">/</div>
+    </div>
+    
+</body>
+</html>
